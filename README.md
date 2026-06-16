@@ -4,6 +4,14 @@
 
 ## What Was Built
 
+Vehicle infotainment systems have evolved significantly, offering a range of features that enhance the driving experience. These systems typically include:
+Touchscreen Display: A central interface for navigation, media control, and vehicle management. 
+Audio System: Advanced audio performance with modern speakers and amplification technology. 
+Connectivity Modules: Integration of Wi-Fi, Bluetooth, and cellular connections for hands-free calling and music streaming. 
+Operating System: Android Automotive, QNX, and Linux-based systems for system integration and user interaction. 
+
+Modern infotainment systems are designed to be user-friendly, providing a seamless experience for both drivers and passengers. They offer features such as real-time traffic updates, smartphone integration, and voice control, making them essential for a safe and enjoyable driving experience. 
+
 ### Source Files (7 Python modules)
 
 | File | Purpose |
