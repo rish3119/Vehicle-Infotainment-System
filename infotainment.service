@@ -1,0 +1,18 @@
+[Unit]
+Description=Vehicle Infotainment System
+After=network.target bluetooth.target sound.target graphical.target
+Wants=bluetooth.target
+
+[Service]
+Type=simple
+User=pi
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/pi/.Xauthority
+WorkingDirectory=/home/pi/infotainment
+ExecStartPre=/sbin/ip link set can0 up type can bitrate 500000
+ExecStart=/usr/bin/python3 src/main.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical.target

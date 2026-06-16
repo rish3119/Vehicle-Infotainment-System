@@ -1,0 +1,12 @@
+# requirements.txt — Vehicle Infotainment System (Raspberry Pi)
+# Install: pip install -r requirements.txt
+# System deps: sudo apt-get install python3-dev libasound2-dev bluez bluetooth python3-pyqt5
+
+python-can>=4.3.0
+pyserial>=3.5
+pynmea2>=1.19.0
+pyalsaaudio>=0.10.0
+pygame>=2.5.0
+PyQt5>=5.15.0
+pydbus>=0.6.0
+PyQtChart>=5.15.0       # Gauge / chart widgets inside PyQt5
